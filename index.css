@@ -1,0 +1,76 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Kumbh Sans', sans-serif;
+}
+body{
+    margin: 0;
+    padding: 0;
+    background-color: hsl(185, 75%, 39%);
+}
+.container {
+    display: flex;
+}
+.efeito-top {
+    display: flex;
+    align-self: flex-start;
+    justify-content: flex-start;
+}
+.efeito-top img{
+    max-width: 120%;
+    z-index: -1;
+}
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: min-content;
+    height: fit-content;
+    margin: 9em auto;
+    background-color: white;
+    border-radius: 1em;
+}
+.efeito-bottom {
+    display: flex;
+    align-self: flex-end;
+    justify-content: flex-end;
+}
+.efeito-bottom img{
+    width: 120%;
+    z-index: -1;
+}
+h2 {
+    color: hsl(229, 23%, 23%);
+    margin-bottom: -0.4em;
+}
+h3, h5 {
+    color: hsl(227, 10%, 46%);
+    font-weight: 400;
+}
+.card-top img {
+    border-top-left-radius: 1em;
+    border-top-right-radius: 1em;
+}
+.card-mid {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 1em;
+}
+.card-mid img {
+    margin-top: -4em;
+    margin-bottom: 1em;
+    border: 5px solid white;
+    border-radius: 50%;
+}
+.card-bottom {
+    display: flex;
+    justify-content: space-between;
+    border-top: 1px solid hsl(227, 10%, 46%, 40%);
+    padding: 0 2em;
+}
+.card-bottom div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 1em;
+}
